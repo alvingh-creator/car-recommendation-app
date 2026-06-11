@@ -24,7 +24,7 @@ function App() {
       setLoading(true);
 
       const response = await fetch(
-        "http://localhost:5000/api/recommendations",
+        "https://car-recommendation-app.onrender.com/api/recommendations",
         {
           method: "POST",
           headers: {
